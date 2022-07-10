@@ -6,15 +6,26 @@
     </head>
 
     <body>
-        <noscript>
+        <noscript class="JSNotice">
             <p>
-                Javascript is disabled.<br/>
-                I dont have anything to say. Please,<br/>
-                enable JavaScript.<br/>
-                Link for help with JavaScript - <a href="https://enable-javascript.com/">https://enable-javascript.com/</a><br/>
-                Scroll down a little, and youll see the instructions for your browser.<br/>
-                If it isnt there, read the instructions for a different browser, such as Edge. Read chrome.
+                JavaScript is disabled.
+                Instructions for enabling here >>> <a href="https://enable-javascript.com/">https://enable-javascript.com/</a>
             </p>
+    
+            <link rel="stylesheet" type="text/css" href="css/JSNotice.css"/>
         </noscript>
-    </body>
+        
+        <script>
+            var stylesheet = document.createElement('link');
+            stylesheet.type = 'text/css';
+            stylesheet.setAttribute('href', 'css/index.css');
+            stylesheet.setAttribute('rel','stylesheet');
+            document.getElementsByTagName('head')[0].appendChild(stylesheet);
+        </script>
+        <script>
+            var para = document.createElement('p')
+            para.innerHTML = 'Website under construction!'
+            document.getElementsByTagName('body')[0].appendChild(para)
+        </script>
+    </body> 
 </html>

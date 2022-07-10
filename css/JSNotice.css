@@ -1,0 +1,13 @@
+.JSNotice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+
+    color: rgb(255, 0, 0);
+}
+
+body {
+    background-color: rgb(255, 173, 173);
+}
