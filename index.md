@@ -2,4 +2,10 @@
 layout: default
 ---
 
-# hello, world!
+# index
+
+## welcome to my site!
+
+heres a list of the things im hosting:
+
+[placeholder](about://blank).
