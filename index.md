@@ -8,4 +8,4 @@ layout: default
 
 heres a list of the things im hosting:
 
-[placeholder](about://blank).
+[about me](http://jased.site/aboutme).
