@@ -8,4 +8,11 @@ layout: default
 
 heres a list of the things im hosting:
 
-[about me](http://jased.site/aboutme).
+[/aboutme](http://jased.site/aboutme)
+
+[/projects](http://jased.site/projects)*
+
+
+
+
+*this link leads to another list.
