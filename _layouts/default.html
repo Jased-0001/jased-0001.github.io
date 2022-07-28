@@ -19,7 +19,7 @@
   <body>
     <div class="wrapper">
       <header {% unless site.description or site.github.project_tagline %} class="without-description" {% endunless %}>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
+        <a href="http://jased.site/"><h1>{{ site.title | default: site.github.repository_name }}</h1></a>
         {% if site.description or site.github.project_tagline %}
           <p>{{ site.description | default: site.github.project_tagline }}</p>
         {% endif %}
@@ -35,7 +35,9 @@
       <p>Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
     {% endif %}
       <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a><br>
-        <b>Created by <a href="http://jased.site/aboutme">jased</a> using ❤</b></p>
+        <b>Created by <a href="http://jased.site/aboutme">jased</a> using ❤</b><br/>
+        made possible with help from <a href="https://www.byemc.xyz/"><b>Bye</b></a>
+      </p>
     </footer>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
   </body>
