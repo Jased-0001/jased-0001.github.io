@@ -12,7 +12,7 @@ heres a list of the things im hosting:
 
 [/projects](http://jased.site/projects)*
 
-
+[/blog](http://jased.site/blog)*
 
 
 *this link leads to another list.

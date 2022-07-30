@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# projects
+# /projects
 
 ## things i made
 
