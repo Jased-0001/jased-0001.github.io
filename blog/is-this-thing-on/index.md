@@ -2,16 +2,22 @@
 layout: default
 ---
 
-# if this thing on?
+# is this thing on?
+
+## published on 7/30/2022
 
 ![is-this-thing-on.png](http://jased.site/assets/images/is-this-thing-on.png)
 
-yes. yes it is.
+yay! it is!
 
-/blog is now a thing now and i have NO idea what to do with it.
+so yeah...
 
-so... hows your day been? good good.
+## i have a blog now 😎😎😎
 
-well it now exists 
+this is kind of a test which is why the thumbnail looks like.. that
 
-### i have a blog now 😎😎😎
+im probably gonna post things like what im doing on the site.. what i made.. and.. i really dont know
+
+i kinda just got jased.site because i could.
+
+**goodbye!**
