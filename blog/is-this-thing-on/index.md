@@ -4,7 +4,7 @@ layout: default
 
 # if this thing on?
 
-![is-this-thing-on.png]: http://jased.site/assets/images/is-this-thing-on.png
+![is-this-thing-on.png](http://jased.site/assets/images/is-this-thing-on.png)
 
 yes. yes it is.
 
