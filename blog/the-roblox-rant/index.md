@@ -6,7 +6,7 @@ layout: default
 
 PLEASE DONT TAKE THIS SERIOUSLY. im just mad :(
 
-## published on --/--/2022
+## published on 7/30/2022
 
 ![the-roblox-rant.png](http://jased.site/blog/the-roblox-rant/the-roblox-rant.png)
 
