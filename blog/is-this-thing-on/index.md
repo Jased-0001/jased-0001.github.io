@@ -6,7 +6,7 @@ layout: default
 
 ## published on 7/30/2022
 
-![is-this-thing-on.png](http://jased.site/assets/images/is-this-thing-on.png)
+![is-this-thing-on.png](http://jased.site/blog/is-this-thing-on/is-this-thing-on.png)
 
 yay! it is!
 
