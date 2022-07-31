@@ -6,6 +6,10 @@ layout: default
 
 ## welcome to da blog
 
-![is-this-thing-on.png](http://jased.site/assets/images/is-this-thing-on.png)
+**dont take ANYTHING with the word "rant" in the title seriously.**
 
-[Is this thing on?](http://jased.site/blog/is-this-thing-on)*
+### [The ROBLOX rant](http://jased.site/blog/the-roblox-rant)*
+
+### [is this thing on?](http://jased.site/blog/is-this-thing-on)
+
+*this is a rant (read top)
