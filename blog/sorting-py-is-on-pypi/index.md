@@ -6,7 +6,7 @@ layout: default
 
 ## published on 8/5/2022
 
-![toby.gif](http://jased.site/blog/sorting-py-is-on-pypi/toby.gif)
+![toby.gif](http://jased.site/blog/sorting-py-is-on-pypi/toby.gif)*
 
 [algorsort link](https://pypi.org/project/algorsort/)
 
@@ -25,3 +25,5 @@ sorting.py is actually kind of bad, i used github copilot and the help() was jus
 and with all that said...
 
 **Goodbye!**
+
+*this is owned by Toby Fox, it is not mine.
