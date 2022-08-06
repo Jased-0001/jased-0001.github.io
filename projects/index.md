@@ -6,7 +6,7 @@ layout: default
 
 ## things i made
 
-[sorting.py](). 
+[sorting.py](https://pypi.org/project/algorsort/). 
 
 ![PyPI][pypi-badge]
 
