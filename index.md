@@ -15,4 +15,7 @@ heres a list of the things im hosting:
 [/blog](http://jased.xyz/blog)*
 
 
+### [/Typer](http://jased.xyz/typer)
+
+
 *this link leads to another list.
