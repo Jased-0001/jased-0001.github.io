@@ -33,6 +33,15 @@
     <meta name="msapplication-TileImage" content="https://jased.xyz/assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <!--favicon end-->
+    
+    <script>
+      var currentURL = window.location.href;
+      currentURL = currentURL.toLowerCase();
+      
+      if(currentURL.includes('jased.site')) {
+        window.location.href = 'https://jased.xyz/'
+      }
+    </script>
 
     {% include head-custom.html %}
   </head>
