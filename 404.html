@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+        <style>
+            body {
+                background-color: #00c3ff;
+                justify-content: center;
+            }
+
+            #birb {position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+        </style>
+
+        <title>A wild birb appears!</title>
+    </head>
+
+    <body>
+        <p>
+            The error birb appears... MENACINGLY
+        </p>
+
+        <img alt="* (The birb does not appear.)" id="birb" src="./assets/images/birbwheel.png" height="200" width="400"><br>
+
+        <noscript>Hes just standing there...<br/>
+            MENACINGLY</noscript>
+
+        <script type="text/javascript">
+            window.addEventListener('load', 
+                function() { 
+                    let x = document.getElementById("birb");
+                    let turn = 60;
+
+                    setInterval(function() {
+                        turn += 1;
+                        x.style.transform = "rotate("+ (turn % 360) +"deg)"
+                    }, 10);
+                }, 
+            false);
+        </script>
+    </body>
+</html>
