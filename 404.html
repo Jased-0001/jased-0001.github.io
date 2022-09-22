@@ -26,7 +26,7 @@
             The error birb appears... MENACINGLY
         </p>
 
-        <img alt="* (The birb does not appear.)" id="birb" src="./assets/images/birbwheel.png" height="200" width="400"><br>
+        <img alt="* (The birb does not appear.)" id="birb" src="https://jased.xyz/assets/images/birbwheel.png" height="150" width="450"><br>
 
         <noscript>Hes just standing there...<br/>
             MENACINGLY</noscript>
@@ -35,12 +35,12 @@
             window.addEventListener('load', 
                 function() { 
                     let x = document.getElementById("birb");
-                    let turn = 60;
+                    let turn = 0;
 
                     setInterval(function() {
-                        turn += 1;
+                        turn += 0.5;
                         x.style.transform = "rotate("+ (turn % 360) +"deg)"
-                    }, 10);
+                    }, 1);
                 }, 
             false);
         </script>
