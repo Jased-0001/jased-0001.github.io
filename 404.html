@@ -42,7 +42,7 @@
         <div>
             <h class="rotate">:(</h>
             <h3>The requested resource does not exist.</h4>
-            <p id="resourceN">x not found!!</p>
+            <p id="resourceN"> not found!!</p>
             <br/><br/>
             <p>Either try again later or try a different URL</p>
         </div>
@@ -51,17 +51,31 @@
         <img alt="* (The birb does not appear.)" id="birb" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAMAAACdt4HsAAADAFBMVEUAAAAAAKoAqgAAqqqqAACqAKqqVQCqqqpVVVVVVf9V/1VV////VVX/Vf///1X///8AAAAUFBQgICAsLCw4ODhFRUVRUVFhYWFxcXGCgoKSkpKioqK2trbLy8vj4+P///8AAP9BAP99AP++AP//AP//AL7/AH3/AEH/AAD/QQD/fQD/vgD//wC+/wB9/wBB/wAA/wAA/0EA/30A/74A//8Avv8Aff8AQf99ff+eff++ff/fff//ff//fd//fb7/fZ7/fX3/nn3/vn3/333//33f/32+/32e/319/319/559/759/999//993/99vv99nv+2tv/Htv/btv/rtv//tv//tuv/ttv/tsf/trb/x7b/27b/67b//7br/7bb/7bH/7a2/7a2/8e2/9u2/+u2//+26/+22/+2x/8AAHEcAHE4AHFVAHFxAHFxAFVxADhxABxxAABxHABxOABxVQBxcQBVcQA4cQAccQAAcQAAcRwAcTgAcVUAcXEAVXEAOHEAHHE4OHFFOHFVOHFhOHFxOHFxOGFxOFVxOEVxODhxRThxVThxYThxcThhcThVcThFcTg4cTg4cUU4cVU4cWE4cXE4YXE4VXE4RXFRUXFZUXFhUXFpUXFxUXFxUWlxUWFxUVlxUVFxWVFxYVFxaVFxcVFpcVFhcVFZcVFRcVFRcVlRcWFRcWlRcXFRaXFRYXFRWXEAAEEQAEEgAEEwAEFBAEFBADBBACBBABBBAABBEABBIABBMABBQQAwQQAgQQAQQQAAQQAAQRAAQSAAQTAAQUEAMEEAIEEAEEEgIEEoIEEwIEE4IEFBIEFBIDhBIDBBIChBICBBKCBBMCBBOCBBQSA4QSAwQSAoQSAgQSAgQSggQTAgQTggQUEgOEEgMEEgKEEsLEEwLEE0LEE8LEFBLEFBLDxBLDRBLDBBLCxBMCxBNCxBPCxBQSw8QSw0QSwwQSwsQSwsQTAsQTQsQTwsQUEsPEEsNEEsMEEAAAAAAAAAAAAAAAAAAAAAAAAAAAD///8fgDfZAAAAAXRSTlMAQObYZgAAARRJREFUWIXVl1EOwyAMQzkC9z/tNHXrKNiOE6Sqy1cb4kdAUYDWVuvQQCAxrLcZXO4htD5khGJNULM5WRjJSoS31t9SmPzzGSy0rQHOHl+zsLwyi7oeEfC6FGIhjvA0YfxRJcAIXUee3jltnkASsGwnLeLZCQHYcFq+nmGfAdjQH+I/A4BKyOhRG0kAOprOBhyTo2I06/gbXgEMvQYMRoBx3+BpIgHTrmcBooW5GcT6OwHssLULifvzp8jkvwVAY0wAPyy9pihqLRiP9B5A3pfCKaTcORv1XUM1ipjN7gcJY1eUgr5EoPedmn4fkCXADr+nTxHoY8KUFwvPCnK6SzC8OR6E+K/fhJsyljeArx5E+hH5thdo1yCRUCNKTgAAAABJRU5ErkJggg==" height="150" width="450"><br>
 
         <script type="text/javascript">
-            window.addEventListener('load',
+            window.addEventListener('load', function() { 
+                    //if "redirect" in URL, redirect
+                    //code recycling at its finest
+                    let urlString = window.location.href;
 
-                function() { 
-                    document.getElementById('resourceN').innerHTML = "<b>\"" + window.location.href + "\"</b> not found!!";
+                    let paramString = urlString.split('?')[1];
+                    let queryString = new URLSearchParams(paramString);
 
+                    for(let pair of queryString.entries()) {
+                        if(pair[0] == "redirect") {
+                            window.location.href = pair[1]
+                        }
+                    }
+                
+                    //add X not found!!
+                    document.getElementById('resourceN').innerHTML = 
+                        "<b>\"" + window.location.href + "\"</b> not found!!";
+                    
+                    //spin
                     let x = document.getElementById("birb");
                     let turn = 0;
 
                     setInterval(function() {
                         turn += 0.5;
-                        x.style.transform = "rotate("+ (turn % 360) +"deg)"
+                        x.style.transform = "rotate("+ (turn % 360) +"deg)";
                     }, 1);
                 }, 
             false);
