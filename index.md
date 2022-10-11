@@ -12,7 +12,7 @@ heres a list of the things im hosting:
 
 ### [/Typer](http://jased.xyz/typer)
 
-### [/clocktab](http://jased.xyz/clocktab/) **NEW**
+### [/clocktab](https://jased.xyz/clocktab/) **NEW**
 
 ## **-----------{other stuff}-----------**
 
