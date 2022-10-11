@@ -10,7 +10,13 @@ layout: default
 
 ![PyPI][pypi-badge]
 
+[/clocktab](https://jased.xyz/clocktab/).
 
+![Github][githubbadge]
+
+[/typer](https://jased.xyz/typer/). 
+
+![Github][githubbadge]
 
 
 
