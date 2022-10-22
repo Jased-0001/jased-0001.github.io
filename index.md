@@ -8,6 +8,14 @@ layout: default
 
 heres a list of the things im hosting:
 
+## **-----------{nice things i'm proud of}-----------**
+
+### [/Typer](http://jased.xyz/typer)
+
+### [/clocktab](https://jased.xyz/clocktab/) **NEW**
+
+## **-----------{other stuff}-----------**
+
 [/aboutme](http://jased.xyz/aboutme)
 
 [/projects](http://jased.xyz/projects)*
@@ -15,7 +23,6 @@ heres a list of the things im hosting:
 [/blog](http://jased.xyz/blog)*
 
 
-### [/Typer](http://jased.xyz/typer)
 
 
 *this link leads to another list.
