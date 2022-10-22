@@ -1,0 +1,10 @@
+body {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(138, 138, 138), rgb(0, 0, 0));
+    background-color: black;
+}
+
+#lyrics {
+    background-image: linear-gradient(rgb(138, 138, 138), rgb(0, 0, 0));
+    color: white;
+    text-align: center;
+}
