@@ -6,6 +6,12 @@ layout: default
 
 ## things i made
 
+### [DeuTerium](https://www.getdeuterium.win). 
+
+![githubbadge][githubbadge]
+
+
+
 [sorting.py](https://pypi.org/project/algorsort/). 
 
 ![PyPI][pypi-badge]
