@@ -10,17 +10,19 @@ heres a list of the things im hosting:
 
 ## **-----------{nice things i'm proud of}-----------**
 
-### [/Typer](http://jased.xyz/typer)
+### [minecraft server](https://jased.xyz/mcserver) **NEW**
 
-### [/clocktab](https://jased.xyz/clocktab/) **NEW**
+### [/Typer](https://jased.xyz/typer)
+
+### [/clocktab](https://jased.xyz/clocktab/)
 
 ## **-----------{other stuff}-----------**
 
-[/aboutme](http://jased.xyz/aboutme)
+[/aboutme](https://jased.xyz/aboutme)
 
-[/projects](http://jased.xyz/projects)*
+[/projects](https://jased.xyz/projects)*
 
-[/blog](http://jased.xyz/blog)*
+[/blog](https://jased.xyz/blog)*
 
 
 
